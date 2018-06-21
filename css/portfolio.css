@@ -1,0 +1,64 @@
+html, body{
+	font-family: Arial, san-serif;
+	margin: 0;
+}
+
+
+header{
+	background-color: #4d4dff;
+	padding: 40px; 
+	text-align: center;
+}
+
+h1{
+	font-size: 90px;
+	color: white;
+}
+
+header img{
+	border-radius: 150px;
+	width: 300px;
+	border: 10px solid #00004d;
+}
+
+.content{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+img.big-image{
+	max-width: 100%;
+}
+
+p.caption{
+	font-size: 16px;
+	color: lightgrey;
+	font-style: italic
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+/* changing the list style*/
+}
+a{
+	color: blue;
+	text-decoration: none;
+/*changing the link styles*/
+}
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: #ff6600;
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
+/* this changes the li in the ul that is within the footer, by making it an in-line block a margin can be applied*/
+}
