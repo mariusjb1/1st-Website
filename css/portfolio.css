@@ -69,11 +69,10 @@ img.big-image{
 }
 p.aboutme{
 	text-align: left;
-}
-p.caption{
 	font-size: 16px;
-	color: lightgrey;
-	font-style: italic
+}
+p.skilltext{
+	font-size: 16px;
 }
 ul{
 	padding: 15px;
@@ -90,6 +89,7 @@ footer{
 
 footer ul{
 	text-align: center;
+	font-size: 16px;
 }
 
 footer ul li{
