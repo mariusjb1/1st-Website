@@ -1,0 +1,33 @@
+
+Hobbys section
+
+CSS
+
+ul{
+	padding: 15px;
+	background-color: #cce6ff ;
+	text-align: center;
+/* changing the list style*/
+}
+u1 li{
+	background-color: #e6f9ff;
+	margin: 0px;
+	margin-left: 50px;
+}
+a{
+	color: blue;
+	text-decoration: none;
+/*changing the link styles*/
+}
+a:hover{
+	background-color: #427df4;
+}
+
+HTML
+<h2>My hobbys</h2>
+		<hr>
+		<ul>
+			<li>Football</li>
+			<li><a href="https://www.youtube.com/watch?v=AKMeIEPav-g" target="_blank" title="Visit my youtube channel!">Ski-ing</a></li>
+			<li>Computer Games</li>
+		</ul>
