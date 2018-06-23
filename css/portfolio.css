@@ -166,3 +166,24 @@ iframe{
     top: 0px;
     background:#ffffff;
 }
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: #808080 ;
+    background-color: #e6e6e6;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+} 
