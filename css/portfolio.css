@@ -197,6 +197,7 @@ a.projlink:active {
 	float: left;
 	width: 50%;	
 	padding: 20px;
+	margin-top: 17px;
 }
 .rowContact:after{
 	content: "";
@@ -226,8 +227,7 @@ p.contact-text{
 }
 .contactImage{
 	position: relative;
-    width:  150px;
-    height: 150px;
+    height: 200px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
