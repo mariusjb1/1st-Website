@@ -224,3 +224,17 @@ p.contact-text{
 	color: #808080 ;
     background-color: #e6e6e6;
 }
+.contactImage{
+	position: relative;
+    width:  150px;
+    height: 150px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit:scale-down;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border:solid 18px #ffffff;
+}
