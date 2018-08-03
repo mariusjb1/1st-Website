@@ -57,7 +57,6 @@ header img{
 }
 img.smallImage{
 	position: relative;
-    width:  100px;
     height: 100px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -88,7 +87,7 @@ ul{
 }
 
 footer{
-	margin-top: 20px;
+	margin-top: 300px;
 	padding: 20px 20px;
 	background-color: #cce6ff;
 	width: 100%;
@@ -110,7 +109,7 @@ footer ul li{
 }
 .column{
 	float: left;
-	width: 33.33%;	
+	width: 25%;	
 	padding: 20px;
 }
 .row:after{
@@ -203,16 +202,13 @@ a.projlink:active {
     color: blue;
 } 
 
-.columnContact1{
+
+
+.columnContact{
 	float: left;
 	width: 50%;	
-	padding: 20px;
+	padding: 0px;
 }
-.columnContact2{
-	float: left;
-	width: 50%;	
-	padding: 20px;
-	margin-top: 58px;
 }
 .rowContact:after{
 	content: "";
@@ -220,12 +216,19 @@ a.projlink:active {
 	clear: both;
 }
 
+
+@media screen and (max-width: 600px) {
+	.columnContact{
+		width: 100%
+	}
+}
+
 p.contact-text{
 	font-size: 16px;
 }
 
 .button {
-    background-color: #cce6ff;
+    background-color: white;
     border:  10px;
     color: black;
     text-align: center;
@@ -237,7 +240,7 @@ p.contact-text{
 }
 .button:hover{
 	color: #808080 ;
-    background-color: #e6e6e6;
+    background-color: #cce6ff;
 }
 .contactImage{
 	position: relative;
