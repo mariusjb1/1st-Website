@@ -257,3 +257,6 @@ p.contact-text{
 .frame{
 	border:solid 18px #ffffff;
 }
+div.columnContact{
+	text-align: center;
+}
